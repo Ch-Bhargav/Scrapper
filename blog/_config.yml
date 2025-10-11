@@ -1,0 +1,23 @@
+title: Telegram Blog
+description: Posts published from a Telegram channel via Vercel function
+url: https://your-username.github.io # change to your GitHub Pages URL
+baseurl: "" # if using project pages, set to "/repo-name"
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Use filename slug as permalink
+permalink: /:title/
+
+# Minima options
+show_excerpts: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+
